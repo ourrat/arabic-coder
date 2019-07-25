@@ -1,0 +1,256 @@
+@charset "utf-8";
+body{
+  margin:0px;
+  padding:0px;
+}
+header{
+  background-color:#ffffff;
+  height:80px;
+  width:100%;
+  margin:-23px;
+  padding:0px;
+  padding-bottom:24px;
+}
+.header span{
+  color:#f3c240;
+  font-family: 'Playball', cursive;
+}
+.header{
+  font-family: 'Lato', sans-serif;
+  display: inline-block;
+  padding-left:50px;
+}
+nav{
+  display:inline-block;
+  padding-left:500px;
+  padding-top:25px;
+}
+.header-nav{
+  list-style: none;
+  text-align:center;
+}
+.header-nav li{
+  float:left;
+  padding-left:30px;
+}
+
+.header-nav  li a{
+  text-decoration:none;
+  color:#656565;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+.header-nav li a:hover{
+  background-color:#bebebe;
+  padding: 18px 17px;
+  border-bottom:4px solid #d68f6f;
+  transition: 1s;
+}
+section{
+  background-image:url("img/background22.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:100vh;
+}
+.icons{
+  padding-left: 1111px;
+  display: inline-block;
+}
+.icons img{
+  width:26px;
+  margin-left:6px;
+}
+.icons ul {
+  list-style: none;
+}
+.icons ul li{
+  float:left;
+}
+.section1 h3{
+  color:#fff;
+  margin-left: 323px;
+  border-bottom: 2px solid #4f5e74;
+  display: inline-block;
+  font-size:21px;
+  font-family: 'Muli', sans-serif;
+}
+.section1{
+  float:left;
+  width:50%;
+  margin-left:80px;
+  margin-top:85px;
+}
+form{
+  margin:0px 82px;
+  border-right: 2px solid #fff;
+}
+form .first-last{
+  padding-left: 145px;
+}
+form .first-last input{
+  border-radius:5px;
+  border:none;
+  text-align:center;
+  padding-top:7px;
+  padding-bottom:7px;
+}
+form .email-password{
+  padding-left:145px;
+}
+form .email-password input{
+  border-radius:5px;
+  border:none;
+  padding:7px 35px;
+  width: 270px;
+  margin-top: 15px;
+  text-align:center;
+}
+form .radio-button{
+  margin:16px 138px;
+}
+form .radio-button a{
+  text-decoration: none;
+  color:#fff;
+  border:1px solid #fff;
+  border-radius: 5px;
+  background-color: #5f9c4c;
+  padding:5px 13px;
+}
+form .radio-button a:hover{
+  color:#f3c240;
+}
+form .radio-button span{
+  color:#fff;
+  font-size:19px;
+  font-family: 'Lato', sans-serif;
+}
+.section2{
+  float:left;
+  width:50;
+  padding-top:45px;
+  text-align: center;
+  margin:0px -77px;
+  margin-top:84px;
+}
+.section2 h2{
+  color:#fff;
+  font-family: 'Muli', sans-serif;
+}
+.section2 p{
+  color:#fff;
+  font-family: 'Muli', sans-serif;
+}
+ .anchor{
+  padding-bottom:20px;
+}
+p span.full{
+  color:#4e5279;
+}
+.section2 a{
+  border:1px solid #cfb9b2;
+  border-radius:3px;
+  padding:10px 20px;
+  color:#fff;
+  text-decoration: none;
+  margin:0px 27px;
+  font-family: 'Lato', sans-serif;
+}
+.section2 a:hover{
+  background-color:#f3c240;
+}
+.clearfix{
+    clear:both;
+}
+.section3{
+  color:#fff;
+  text-align:center;
+}
+.section3 h2{
+  font-size:40px;
+  font-family: 'Playball', cursive;
+  color:#fff;
+  text-shadow: 9px 0px 5px black;;
+}
+.section3 p{
+  font-size:12px;
+  color:#fff;
+  font-family: 'Muli', sans-serif;
+}
+footer{
+  padding-left:299px;
+  width:80%;
+}
+footer .footer1 p{
+  float:left;
+  width:20%;
+  color:#4f5e74;
+  font-size:12px;
+  font-family: 'Muli', sans-serif;
+  margin-top:-42px;
+}
+footer .footer1 h5{
+  font-size:30px;
+  color:#4f5e74;
+
+}
+footer .footer2{
+  float:left;
+  width:20%;
+  margin-top:-58px;
+}
+footer .footer3{
+  float:left;
+  width:20%;
+  color:#4f5e74;
+  font-size:14px;
+  margin-top: -61px;
+  font-family: 'Muli', sans-serif;
+}
+footer .footer4{
+  float:left;
+  width:20%;
+  color:#4f5e74;
+  margin-top:-60px;
+  font-family: 'Muli', sans-serif;
+}
+footer .footer4 .button1 {
+  border:none;
+  background-color:#152846;
+  color:#fff;
+  padding: 6px 51px;
+  margin-top:5px;
+  font-family: 'Muli', sans-serif;
+}
+footer .footer4 .button2 {
+  border:none;
+  background-color:#b787d7;
+  color:#fff;
+  font-size: 10px;
+  padding: 5px 5px;
+  margin-top: 25px;
+  font-family: 'Muli', sans-serif;
+}
+
+footer .footer3 img{
+  width:20px;
+}
+footer .footer2 ul li{
+  list-style: none;
+}
+footer .footer2 ul li a{
+  text-decoration: none;
+  color:#4f5e74;
+  font-family: 'Muli', sans-serif;
+  font-size:14px;
+}
+footer .footer2 ul li a:hover{
+  color:black;
+  font-size: 16px;
+}
+footer h6{
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size:14px;
+  color:#4f5e74;
+  margin-right:210px
+}
